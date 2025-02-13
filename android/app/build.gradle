@@ -92,6 +92,12 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        release {
+            storeFile file('firstdeeplinkproj.keystore')
+            storePassword 'koushal@barick'
+            keyAlias 'deeplink'
+            keyPassword 'koushal@barick'
+        }
     }
     buildTypes {
         debug {
